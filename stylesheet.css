@@ -11,12 +11,103 @@
     transition: all .2s linear;
 }
 
+h2 {
+    text-align: center;
+}
+
 a.navbar-brand {
     font-weight: 700;
     font-size: 40px;
 }
 
-/* a.carousel-item {
-    display:flex;
-    flex-wrap: wrap;
-} */
+#about-section {
+    margin: 5rem 2rem 0 2rem;
+}
+
+.card-group {
+    margin: 4rem 1rem 5rem 1rem;
+}
+
+.card-text,
+.card-title {
+    text-align: center;
+}
+
+#service-col2 {
+    padding: 2rem 0rem;
+}
+
+div.icon {
+    margin: 10px 0 0 5px;
+}
+
+/* right aside for profile icon from nav */
+.contact-info {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35rem;
+    background: white;
+    height: 100%;
+    text-align: center;
+    z-index: 1100;
+    padding: 0 2rem;
+    padding-top: 5rem;
+    display: none;
+}
+
+.contact-info:active {
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
+    display: block;
+}
+
+#close-contact-info{
+    position: absolute;
+    top: 1rem; right: 1.5rem;
+    cursor: pointer;
+    font-size: 4rem;
+    color: black;
+}
+
+#close-contact-info:hover{
+    transform: rotate(90deg);
+}
+
+.info {
+    padding: 1.5rem 0;
+}
+
+.info i {
+    margin-bottom: .5rem;
+}
+
+.info h3 {
+    padding: 1rem 0;
+}
+/* end of right aside for profile icon from nav*/
+
+
+
+/* Lg devices media queries */
+@media screen and (min-width: 992px) {
+    div .navbar-collapse {
+        position: absolute;
+        left: 58%;
+    }
+
+    .header-title {
+        font-size: xxx-large;
+        font-weight: 700;
+    }
+
+    div.container-fluid {
+        padding-left: 0;
+    }
+
+    .header-background {
+        width: 33%;
+        text-align: center;
+    }
+
+
+}
