@@ -32,10 +32,6 @@ a.navbar-brand {
     text-align: center;
 }
 
-#service-col2 {
-    margin: 0;
-}
-
 div.icon {
     margin: 10px 0 0 5px;
 }
@@ -89,6 +85,14 @@ div.icon {
 /* service */
 #service-row3 {
     margin: 0 0 5rem;
+}
+
+#services {
+    margin: 1rem 0;
+}
+
+#service-col2 {
+    margin: 0;
 }
 /* end of service */
 

@@ -20,7 +20,7 @@ function SendMail() {
         email_id : document.getElementById("email_id").value,
         message : document.getElementById("message").value
     }
-    emailjs.send("service_yk9o5y8", "template_gmy1ayl", params).then(function (res) {
+    emailjs.send("service_wxy159t", "template_ohth77o", params).then(function (res) {
         alert("Success! " + res.status);
     })
 }
