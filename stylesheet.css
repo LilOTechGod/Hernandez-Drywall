@@ -47,11 +47,15 @@ div.icon {
     text-align: center;
     z-index: 1100;
     padding: 0 2rem;
-    padding-top: 5rem;
-    display: none;
+    padding-top: 1.5rem;
+    
 }
 
-.contact-info:active {
+.contact-hide {
+    display: none;
+} 
+
+.contact-info-active {
     box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
     display: block;
 }
@@ -64,7 +68,7 @@ div.icon {
     color: black;
 }
 
-#close-contact-info:hover{
+.fas.fa-times:hover{
     transform: rotate(90deg);
 }
 
@@ -94,6 +98,12 @@ div.icon {
 #service-col2 {
     margin: 0;
 }
+
+/* #zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+} */
 /* end of service */
 
 
