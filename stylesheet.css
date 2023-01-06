@@ -48,8 +48,8 @@
     width: 100%;
     object-fit: contain;
 }
-
 /* gallery page ends */
+
 
 h2 {
     text-align: center;
@@ -132,6 +132,26 @@ div.icon:hover {
 }
 /* end of right aside for profile icon from nav*/
 
+
+/* section carousel */
+#carouselExampleCaptions {
+    height: 570px;
+    margin-bottom: 11rem;
+}
+
+#height-carousel {
+    height: 117%;
+}
+
+#item-carousel {
+    height: 100%;
+}
+
+#item-carousel img {
+    height: 100%;
+    image-rendering: pixelated;
+}
+/* section ends carousel */
 
 /* service */
 #service-row3 {
