@@ -26,3 +26,15 @@ function SendMail() {
         alert("Success! " + res.status);
     })
 }
+
+
+// function for gallery in nav to redirect to gallery page
+// var startButton = document.querySelector('.link-gallery');
+// console.log(startButton)
+// var redirectUrl = './gallery.html'
+// startButton.addEventListener('click', redirectToMain)
+
+// function redirectToMain (event) {
+//     event.preventDefault();
+//     document.location.replace(redirectUrl)
+// }

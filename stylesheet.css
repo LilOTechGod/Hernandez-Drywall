@@ -10,6 +10,47 @@
     text-decoration: none;
 }
 
+
+/* gallery page starts */
+.projects-gallery {
+    padding: 3.8rem;
+    text-align: center;
+    background: black
+}
+
+.heading-gallery {
+    color: orange;
+    margin-bottom: 3.5rem;
+    font-size: xxx-large;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 1rem;
+}
+
+.box1 {
+    cursor: initial;
+}
+
+.box1:hover .image img{
+    transform: scale(1.1);
+}
+
+.image {
+    height: 17rem;
+    overflow:hidden;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* gallery page ends */
+
 h2 {
     text-align: center;
 }
@@ -33,7 +74,13 @@ a.navbar-brand {
 }
 
 div.icon {
-    margin: 10px 0 0 5px;
+    margin: -3px 0 0 8px;
+    font-size: xx-large;
+}
+
+div.icon:hover {
+    background: orange;
+    border-radius: 5px;
 }
 
 /* right aside for profile icon from nav */
@@ -112,6 +159,7 @@ div.icon {
 #projects-bg {
     background: lightgrey;
     padding: 1rem 1rem 6rem 1rem;
+    width: 100%;
 }
 
 #projects {
