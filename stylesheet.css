@@ -42,6 +42,7 @@
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
     gap: 1rem;
+    margin: -2rem;
 }
 
 .box1 {
@@ -60,7 +61,7 @@
 .image img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 /* gallery page ends */
 
@@ -347,14 +348,111 @@ button.btn:hover {
 .copywrite {
     text-align: center;
 }
-
-
-
 /* ends footer */
+
+
+
+/* small devices media queries */
+@media screen and (max-width: 600px) {
+
+    #carouselExampleCaptions { 
+        height: 26rem;
+        margin-bottom: 6rem;
+    }
+
+    #about-section {
+        margin:0 
+    }
+
+    section.contact {
+        height:100%;
+    }
+
+    .rows {
+        margin: 0;
+    }
+
+    .map {
+        height: 18rem;
+    }
+
+    .box {
+        margin: 0.7rem 0.5rem 0 0.4rem;
+    }
+
+    button.btn {
+        left:140px;
+    }
+
+    .footer-list {
+        margin-top: 2rem;
+    }
+
+    div.container-fluid {
+        padding-left: 0;
+    }
+
+    div.bg-warning.header-background {
+        width: 272px;
+    }
+
+    .contact-info {
+        width: 100%;
+        padding-top: 0.5rem;
+    }
+}
+
+
+
+/* medium devices media queries */
+@media screen and (min-width: 768px) {
+
+    div.container-fluid {
+        padding-left: 0;
+    }
+
+    div.bg-warning.header-background {
+        width: 407px;
+    }
+
+    #about-section {
+        margin:0 
+    }
+
+    div.col-md-4 {
+        width: 62%;
+    }
+
+    div#about.col-md-8 {
+        width: 33.66%;
+    }
+
+    .card-text1 {
+        font-size:22.5px;
+    }
+
+    div.col {
+        padding:0;
+        gap: .5rem;
+    }
+
+    section.contact {
+        height: 906px;
+    }
+
+    .map {
+        height: 18rem;
+    }
+
+    .footer-list {
+        margin-top: 2rem;
+    }
+}
 
 
 /* Lg devices media queries */
 @media screen and (min-width: 992px) {
+
     div .navbar-collapse {
         position: absolute;
         left: 53%;
