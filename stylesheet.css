@@ -455,16 +455,13 @@ button.btn:hover {
 
     div .navbar-collapse {
         position: absolute;
-        left: 53%;
+        left: 52%;
     }
 
     .header-title {
         font-size: xxx-large;
         font-weight: 700;
-    }
-
-    div.container-fluid {
-        padding-left: 0;
+        width: 46rem;
     }
 
     .header-background {
@@ -472,5 +469,23 @@ button.btn:hover {
         text-align: center;
     }
 
+    div.col-md-4 {
+        width: 58%;
+    }
+
+    .card-text1 {
+        font-size:28px;
+    }
+
+    img.img-fluid.rounded-start {
+        height: 576px;
+        width: 632px;
+        margin-left: 3rem;
+        object-fit: cover;
+    }
+
+    #services {
+        padding-top: 2rem;
+        }
 
 }
