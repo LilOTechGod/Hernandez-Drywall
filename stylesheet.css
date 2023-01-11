@@ -381,7 +381,7 @@ button.btn:hover {
     }
 
     button.btn {
-        left:140px;
+        left:123px;
     }
 
     .footer-list {
@@ -399,6 +399,10 @@ button.btn:hover {
     .contact-info {
         width: 100%;
         padding-top: 0.5rem;
+    }
+
+    .card-text1 {
+        font-size:20px;
     }
 }
 
