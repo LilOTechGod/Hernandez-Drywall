@@ -404,6 +404,14 @@ button.btn:hover {
     .card-text1 {
         font-size:20px;
     }
+
+    .box-container {
+        gap: 1rem;
+        margin: -2rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 
 
@@ -490,6 +498,14 @@ button.btn:hover {
 
     #services {
         padding-top: 2rem;
+        }
+
+        .map {
+            height: auto;
+        }
+
+        section.contact {
+            height: 600px;
         }
 
 }
