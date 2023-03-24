@@ -4,7 +4,8 @@
   "description": "A contractors informative website where he's able to display his services, projects, contact info, gallery, user story and much more in order to advertise his business.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
