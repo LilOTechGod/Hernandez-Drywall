@@ -1,0 +1,23 @@
+{
+  "name": "hernandez-drywall",
+  "version": "1.0.0",
+  "description": "A contractors informative website where he's able to display his services, projects, contact info, gallery, user story and much more in order to advertise his business.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilOTechGod/Hernandez-Drywall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LilOTechGod/Hernandez-Drywall/issues"
+  },
+  "homepage": "https://github.com/LilOTechGod/Hernandez-Drywall#readme",
+  "dependencies": {
+    "node": "^19.8.1"
+  }
+}
