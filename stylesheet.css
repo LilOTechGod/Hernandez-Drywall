@@ -104,13 +104,14 @@ a.navbar-brand {
 }
 
 div.icon {
-    margin: -3px 0 0 8px;
+    margin: 6px 0 0 20px;
     font-size: xx-large;
+    cursor: pointer;
 }
 
 div.icon:hover {
     background: orange;
-    border-radius: 5px;
+    font-size: 36px;
 }
 
 /* right aside for profile icon from nav */
@@ -169,6 +170,19 @@ div.icon:hover {
     margin-bottom: 11rem;
 }
 
+#carouselimg2 {
+    height: 240%;
+    image-rendering: pixelated;
+    position: relative;
+    bottom: 20rem;
+}
+
+#carouselimg3 {
+    height: 239%;
+    position: relative;
+    bottom: 30rem;
+}
+
 #height-carousel {
     height: 117%;
 }
@@ -188,10 +202,15 @@ img.img-fluid{
     height: 100%;
 }
 
-#item-carousel img {
-    height: 113%;
-    image-rendering: pixelated;
+
+span.carousel-control-next-icon,
+span.carousel-control-prev-icon {
+    background-color: black;
+    height: 8rem;
+    width:4rem;
 }
+
+
 /* section ends carousel */
 
 /* service */
