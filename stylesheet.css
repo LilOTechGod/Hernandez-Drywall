@@ -79,6 +79,7 @@
 .card-text {
     font-size: larger;
     font-weight: 500;
+    text-align: center;
 }
 /* ends about us section */
 h2 {
@@ -98,9 +99,10 @@ a.navbar-brand {
     padding: 4rem 1rem 5rem 1rem;
 }
 
-.card-text,
 .card-title {
     text-align: center;
+    font-family: fantasy;
+    font-size: 26px;
 }
 
 div.icon {
@@ -171,16 +173,12 @@ div.icon:hover {
 }
 
 #carouselimg2 {
-    height: 240%;
+    height: 133%;
     image-rendering: pixelated;
-    position: relative;
-    bottom: 20rem;
 }
 
 #carouselimg3 {
-    height: 239%;
-    position: relative;
-    bottom: 30rem;
+    height: 112%;
 }
 
 #height-carousel {
@@ -188,10 +186,10 @@ div.icon:hover {
 }
 
 .section-subtitle {
-font-size: 30px;
-font-weight: 700;
-font-family: 'Font Awesome 5 Free';
-margin-bottom: 0;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'Font Awesome 5 Free';
+    margin-bottom: -19px;
 }
 
 img.img-fluid{
@@ -238,16 +236,33 @@ span.carousel-control-prev-icon {
 /* projects section */
 #projects-bg {
     background: lightgrey;
-    padding: 0rem 1rem 6rem 1rem;
+    padding: 0rem 0rem 6rem 1rem;
     width: 100%;
     margin: 0;
 }
 
 #projects {
     background: lightgray;
-    padding-bottom: 2rem;
+    padding: 6rem 0rem 3rem 0rem;
     margin: 0;
+    font-family: fantasy;
+    font-size: 4rem;
 }
+
+.card {
+    margin: 0 1rem 0 0;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in .appear {
+    opacity: 1;
+}
+
+
 /* end of project section */
 
 
@@ -261,7 +276,9 @@ section.contact{
 
 .heading{
     color:white;
-    margin-bottom: 3rem;
+    padding: 5rem 0 2.5rem 0;
+    font-family: fantasy;
+    font-size: 4rem;
 }
 
 .rows{
@@ -352,12 +369,11 @@ button.btn:hover {
 .footer-list a:hover {
     background: orange;
     color: black;
-    border-radius: .5rem .5rem .5rem .5rem;
 }
 
 #footer-1word {
     color: orange;
-    margin: 0px 0 0rem 2rem;
+    margin: 0px 1rem 0rem 3rem;
 }
 
 #web-dev {
@@ -412,12 +428,25 @@ button.btn:hover {
     }
 
     div.bg-warning.header-background {
-        width: 272px;
+        width: 155px;
+    }
+
+    .header-title {
+        width: 263px;
+        font-weight: 700;
+        padding: 0 0 0 8px;
+    }
+
+    .section-subtitle {
+        font-size: 27px;
+        font-weight: bolder;
+        font-family: 'Font Awesome 5 Free';
+        margin-bottom: -19px;
     }
 
     .contact-info {
         width: 100%;
-        padding-top: 0.5rem;
+        padding-top: 3rem;
     }
 
     .card-text1 {
@@ -443,7 +472,13 @@ button.btn:hover {
     }
 
     div.bg-warning.header-background {
-        width: 407px;
+        width: 319px;
+    }
+
+    .header-title {
+        left: 131px;
+        position: relative;
+        font-weight: 700;
     }
 
     #about-section {
@@ -458,6 +493,12 @@ button.btn:hover {
         width: 33.66%;
     }
 
+    #services {
+        margin: 5rem 0 2.5rem 0;
+        font-family: fantasy;
+        font-size: 4rem;
+    }
+
     .card-text1 {
         font-size:22.5px;
     }
@@ -468,7 +509,7 @@ button.btn:hover {
     }
 
     section.contact {
-        height: 906px;
+        height: 998px;
     }
 
     .map {
@@ -484,6 +525,10 @@ button.btn:hover {
 /* Lg devices media queries */
 @media screen and (min-width: 992px) {
 
+    div.bg-warning.header-background {
+        width: 419px;
+    }
+
     div .navbar-collapse {
         position: absolute;
         left: 52%;
@@ -492,7 +537,7 @@ button.btn:hover {
     .header-title {
         font-size: xxx-large;
         font-weight: 700;
-        width: 46rem;
+        width: 31rem;
     }
 
     .header-background {
@@ -516,7 +561,9 @@ button.btn:hover {
     }
 
     #services {
-        padding-top: 2rem;
+        padding-top: 6rem;
+        font-family: fantasy;
+        font-size: 4rem;
         }
 
         .map {
@@ -524,7 +571,7 @@ button.btn:hover {
         }
 
         section.contact {
-            height: 600px;
+            height: 715px;
         }
 
 }
