@@ -173,13 +173,10 @@ div.icon:hover {
 }
 
 #carouselimg2 {
-    height: 133%;
+    height: 128%;
     image-rendering: pixelated;
 }
 
-#carouselimg3 {
-    height: 112%;
-}
 
 #height-carousel {
     height: 117%;
@@ -572,6 +569,16 @@ button.btn:hover {
 
         section.contact {
             height: 715px;
+        }
+
+        #projectimgclass {
+            height: 550px;
+        }
+
+        #carouselimg3 {
+            height: 97rem;
+            position: relative;
+            bottom: 22rem;
         }
 
 }
